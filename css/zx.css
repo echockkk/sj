@@ -1,0 +1,35 @@
+html,body {
+	width: 100%;
+	background: #303030;
+}
+.ch-pic .ch-xk {
+	background: #fff;
+	padding: 0.166667rem;
+	margin: 0 0.5rem;
+	margin-top: 0.833333rem;
+	border-radius: 0.166667rem;
+}
+.ch-pic img {
+	display: block;
+	width: 100%;
+}
+
+a {
+	display: block;
+	width: 8.333333rem;
+	height: 1.666667rem;
+	line-height: 1.666667rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.6rem;
+	margin: 0 auto;
+	border-radius: 0.166667rem;
+}
+.ch-friend {
+	margin-top: 0.833333rem;
+	background: #8aac00;
+	margin-bottom: 0.5rem;
+}
+.ch-save {
+	background: #0069ac;
+}

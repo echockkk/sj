@@ -1,0 +1,95 @@
+/* 广告栏部分 */
+.ch-header .ch-pictop,.ch-header .ch-picbottom {
+	width: 100%;
+}
+.ch-header .ch-pictop img,.ch-header .ch-picbottom img {
+	width: 100%;
+}
+.ch-header .ch-picbottom {
+	margin-top: -0.666667rem;
+}
+
+/* 活动说明部分 */
+.ch-active {
+	margin-top: 0.6rem;
+	margin-bottom: 1.2rem;
+	padding: 0 0.65rem;
+}
+.ch-active .ch-jb {
+	width: 100%;
+	height: 1.5rem;
+	border: 0.016667rem solid #3a3a38;
+	box-sizing: border-box;
+	background: -webkit-linear-gradient(30deg,#3a3a38 0%,#3a3a38 10%,transparent 10%,transparent 25%,#3a3a38 25%,#3a3a38 35%,transparent 35%,transparent 50%,#3a3a38 50%,#3a3a38 60%,transparent 60%,transparent 75%,#3a3a38 75%,#3a3a38 85%,transparent 85%,transparent 100%);
+}
+.ch-active .ch-content {
+	padding: 0 0.6rem;
+	background: #3a3a38;
+	margin-top: 0.3rem;
+	color: #fff;
+	border-radius: 0 0 0.333333rem 0.333333rem;
+}
+.ch-active .ch-content h3 {
+	font-size: 0.666667rem;
+	line-height: 1.7rem;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+	font-weight: 400;
+}
+.ch-active .ch-content .ch-atcontent {
+	margin-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+.ch-active .ch-content .ch-atcontent p {
+	font-size: 0.1rem;
+	line-height: 0.7rem;
+}
+
+/* 拍照部分 */
+#ch-photo {
+	display: block;
+	width: 8rem;
+	height: 1.6rem;
+	line-height: 1.6rem;
+	background: #ac1400;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	font-size: 0.666667rem;
+	border-radius: 0.166667rem;
+}
+
+
+/* 选择照片部分 */
+.ch-mb {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+	display: none;
+}
+.ch-mb .ch-select {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+.ch-mb .ch-select a {
+	display: block;
+	width: 100%;
+	height: 2.2rem;
+	background: #fff;
+	line-height: 2.2rem;
+	text-align: center;
+	color: #333;
+	font-size: 0.666667rem;
+}
+.ch-mb .ch-select a:first-child {
+	margin-bottom: 0.033333rem;
+}
+.ch-mb .ch-select a:last-child {
+	margin-top: 0.25rem;
+	color: #666;
+}
